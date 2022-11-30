@@ -5,20 +5,20 @@
 
 find_package(cereal REQUIRED)
 
-file(GLOB onigiri_logic_code *.cpp *.hpp)
-add_library(onigiri_logic SHARED ${onigiri_logic_code})
+file(GLOB moreonigiri_flow_code *.cpp *.hpp)
+add_library(moreonigiri_flow SHARED ${moreonigiri_flow_code})
 
-target_link_libraries(onigiri_logic PUBLIC cereal::cereal)
-target_include_directories(onigiri_logic PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(moreonigiri_flow PUBLIC cereal::cereal)
+target_include_directories(moreonigiri_flow PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 
 # ********** i18n gettext generation **********
 
 find_package(Intl)
-target_link_libraries(onigiri_logic PUBLIC ${Intl_LIBRARIES})
+target_link_libraries(moreonigiri_flow PUBLIC ${Intl_LIBRARIES})
 
 file(GLOB ffs "../../lang/*.po")
-set(TEXTDOMAIN onigiri_logic)
+set(TEXTDOMAIN moreonigiri_flow)
 make_directory(${CMAKE_CURRENT_BINARY_DIR}/locale)
 foreach(ff IN LISTS ffs)
   get_filename_component(lang ${ff} NAME_WLE)
@@ -36,18 +36,18 @@ foreach(ff IN LISTS ffs)
   add_custom_target(gen_logic_${lang} ALL DEPENDS
     ${CMAKE_CURRENT_BINARY_DIR}/locale/${lang}/LC_MESSAGES/${TEXTDOMAIN}.mo
   )
-  add_dependencies(onigiri_logic gen_logic_${lang})
+  add_dependencies(moreonigiri_flow gen_logic_${lang})
 endforeach()
 
-target_compile_definitions(onigiri_logic PUBLIC "LOGIC_TEXTDOMAIN=\"${TEXTDOMAIN}\"")
-target_compile_definitions(onigiri_logic PUBLIC "LOGIC_TEXTDIR=\"${CMAKE_CURRENT_BINARY_DIR}/locale\"")
+target_compile_definitions(moreonigiri_flow PUBLIC "LOGIC_TEXTDOMAIN=\"${TEXTDOMAIN}\"")
+target_compile_definitions(moreonigiri_flow PUBLIC "LOGIC_TEXTDIR=\"${CMAKE_CURRENT_BINARY_DIR}/locale\"")
 
 
 # ********** code quality check **********
 if (CODE_QUALITY)
   add_compile_options(-Wall -Wextra -pedantic)
   set_target_properties(
-    onigiri_logic
+    moreonigiri_flow
     PROPERTIES
     CXX_CLANG_TIDY "clang-tidy"
   )
@@ -58,14 +58,14 @@ endif()
 
 # ********** verbose save **********
 if(VERBOSE_SAVE)
-  target_compile_definitions(onigiri_logic PUBLIC "VERBOSE_SAVE=true")
+  target_compile_definitions(moreonigiri_flow PUBLIC "VERBOSE_SAVE=true")
 else()
-  target_compile_definitions(onigiri_logic PUBLIC "VERBOSE_SAVE=false")
+  target_compile_definitions(moreonigiri_flow PUBLIC "VERBOSE_SAVE=false")
 endif()
 
 # ********** i18n / locale testing **********
 if(LANG_TESTING)
-  target_compile_definitions(onigiri_logic PUBLIC "LANG_TESTING=true")
+  target_compile_definitions(moreonigiri_flow PUBLIC "LANG_TESTING=true")
 else()
-  target_compile_definitions(onigiri_logic PUBLIC "LANG_TESTING=false")
+  target_compile_definitions(moreonigiri_flow PUBLIC "LANG_TESTING=false")
 endif()

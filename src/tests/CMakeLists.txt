@@ -7,11 +7,11 @@ find_package(GTest REQUIRED)
 
 enable_testing()
 
-file(GLOB onigiri_test_code *.cpp *.hpp)
+file(GLOB moreonigiri_flow_test_code *.cpp *.hpp)
 
-add_executable(onigiri_test ${onigiri_test_code})
+add_executable(moreonigiri_flow_test ${moreonigiri_flow_test_code})
 
-target_link_libraries(onigiri_test onigiri_logic)
-target_link_libraries(onigiri_test GTest::gtest GTest::gtest_main)
+target_link_libraries(moreonigiri_flow_test moreonigiri_flow)
+target_link_libraries(moreonigiri_flow_test GTest::gtest GTest::gtest_main)
 
-gtest_add_tests(TARGET onigiri_test)
+gtest_add_tests(TARGET moreonigiri_flow_test)

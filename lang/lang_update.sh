@@ -2,7 +2,7 @@
 for file in ./*.po;
 do
 echo `basename ${file}`
-msgmerge --update ${file} onigiri_logic.pot -v;
+msgmerge --update ${file} moreonigiri_flow.pot -v;
 echo
 done
 rm onigiri_logic.pot

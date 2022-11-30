@@ -15,15 +15,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include(FetchContent)
 
 include(CMakeDependentOption)
-option(DEV_OPTIONS "Use developer/debug options" OFF)
 
-if(DEV_OPTIONS)
-  cmake_dependent_option(BUILD_DOC    "Build documentation"                         ON "DEV_OPTIONS" OFF)
-  cmake_dependent_option(BUILD_TESTS  "Build tests"                                 ON "DEV_OPTIONS" OFF)
-  cmake_dependent_option(CODE_QUALITY "Perform pedantic build and clang-tidy check" ON "DEV_OPTIONS" OFF)
-  cmake_dependent_option(VERBOSE_SAVE "Save game to human-readable json"            ON "DEV_OPTIONS" OFF)
-  cmake_dependent_option(LANG_TESTING "Use source-predetermined locale"             ON "DEV_OPTIONS" OFF)
-endif()
+option(BUILD_DOC    "Build documentation"                         OFF )
+option(BUILD_TESTS  "Build tests"                                 ON  )
+
+option(CODE_QUALITY "Perform pedantic build and clang-tidy check" OFF )
+option(VERBOSE_SAVE "Save game to human-readable json"            OFF )
+option(LANG_TESTING "Use source-predetermined locale"             OFF )
 
 if(BUILD_DOC)
   add_subdirectory(doc)
