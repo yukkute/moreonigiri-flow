@@ -1,0 +1,25 @@
+# Build
+*bin/
+*build/
+*cache/
+*classes/
+*gen/
+*gradle/
+*out/
+*target/
+
+# VSCode
+*vscode/
+
+# KDevelop
+*kdev4/
+*.kdev4
+*.user
+
+# IntelliJ
+*idea/
+*.iml
+
+# GNU Gettext
+*.po~
+*.pot

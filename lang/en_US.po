@@ -1,0 +1,368 @@
+# English translations for more_onigiri_qt package.
+# Copyright (C) 2022 THE more_onigiri_qt'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the more_onigiri_qt package.
+#
+# Automatically generated, 2022.
+# me <yukkute@protonmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: more_onigiri_qt 6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-28 18:58+0300\n"
+"PO-Revision-Date: 2022-11-28 19:02+0300\n"
+"Last-Translator: yukkute <yukkute@protonmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.08.3\n"
+
+#: ../src/logic/frauds_data.hpp:18
+msgid "tab_frauds"
+msgstr "Frauds"
+
+#: ../src/logic/frauds_data.hpp:19
+msgid "frauds_earned_by_frauds"
+msgstr "Frauded funds"
+
+#: ../src/logic/frauds_data.hpp:20
+msgid "frauds_income"
+msgstr "Frauded income"
+
+#: ../src/logic/frauds_data.hpp:21
+msgid "frauds_add_to_bank"
+msgstr "Add to bank"
+
+#: ../src/logic/frauds_data.hpp:22
+msgid "frauds_flush_bank"
+msgstr "Flush bank"
+
+#: ../src/logic/frauds_data.hpp:23
+msgid "frauds_set_income"
+msgstr "Set income"
+
+#: ../src/logic/frauds_data.hpp:24
+msgid "frauds_reset_income"
+msgstr "Reset income"
+
+#: ../src/logic/frauds_data.hpp:25
+msgid "frauds_gratias_purchase"
+msgstr "Purchasing is gratias"
+
+#: ../src/logic/upgrade_data.hpp:18
+msgid "upgrade_list_tab"
+msgstr "Upgrades"
+
+#: ../src/logic/upgrade_data.hpp:19
+msgid "sort_pricetag_default"
+msgstr "Sort by pricetag (default)"
+
+#: ../src/logic/upgrade_data.hpp:20
+msgid "sort_morphologic"
+msgstr "Sort by type"
+
+#: ../src/logic/bank_data.hpp:17
+msgid "kitchen_bank"
+msgstr "Funds"
+
+#: ../src/logic/game_data.hpp:17
+msgid "tab_statistics"
+msgstr "Statistics"
+
+#: ../src/logic/enterprise_data.hpp:74
+msgid "e_oniichan"
+msgstr "OniiChan"
+
+#: ../src/logic/enterprise_data.hpp:75
+msgid "e_vending"
+msgstr "Lemonade Stand"
+
+#: ../src/logic/enterprise_data.hpp:76
+msgid "e_farm"
+msgstr "Farm"
+
+#: ../src/logic/enterprise_data.hpp:77
+msgid "e_store"
+msgstr "Grocery Store"
+
+#: ../src/logic/enterprise_data.hpp:78
+msgid "e_restaurant"
+msgstr "Restaurant"
+
+#: ../src/logic/enterprise_data.hpp:79
+msgid "e_factory"
+msgstr "Factory"
+
+#: ../src/logic/enterprise_data.hpp:80
+msgid "e_bank"
+msgstr "Bank"
+
+#: ../src/logic/enterprise_data.hpp:83
+msgid "e_desc_oniichan"
+msgstr "a little sister to help you"
+
+#: ../src/logic/enterprise_data.hpp:84
+msgid "e_desc_vending"
+msgstr "driveway business"
+
+#: ../src/logic/enterprise_data.hpp:85
+msgid "e_desc_farm"
+msgstr "stable growth"
+
+#: ../src/logic/enterprise_data.hpp:86
+msgid "e_desc_store"
+msgstr "feeding the community"
+
+#: ../src/logic/enterprise_data.hpp:87
+msgid "e_desc_restaurant"
+msgstr "for people of good taste"
+
+#: ../src/logic/enterprise_data.hpp:88
+msgid "e_desc_factory"
+msgstr "mass production"
+
+#: ../src/logic/enterprise_data.hpp:89
+msgid "e_desc_bank"
+msgstr "attracting big money"
+
+#: ../src/logic/enterprise_data.hpp:91
+msgid "e_report"
+msgstr "Enterprise Report"
+
+#: ../src/logic/enterprise_data.hpp:92
+msgid "e_tier_miltiplier"
+msgstr "Tier upgrades multiplier"
+
+#: ../src/logic/enterprise_data.hpp:93
+msgid "e_income_per_unit"
+msgstr "Income per unit"
+
+#: ../src/logic/enterprise_data.hpp:94
+msgid "e_income_enterprise"
+msgstr "Enterprise income"
+
+#: ../src/logic/enterprise_data.hpp:95
+msgid "e_percent_of_afk"
+msgstr "of total income"
+
+#: ../src/logic/enterprise_data.hpp:96
+msgid "e_spent_on_enterprise"
+msgstr "Spent on enterprise"
+
+#: ../src/logic/enterprise_data.hpp:97
+msgid "e_earned_by_enterprise"
+msgstr "Earned by enterprise"
+
+#: ../src/logic/enterprise_data.hpp:103
+msgid "e00u00_aki"
+msgstr "Aki"
+
+#: ../src/logic/enterprise_data.hpp:104
+msgid "e00u01_himiko"
+msgstr "Himiko"
+
+#: ../src/logic/enterprise_data.hpp:105
+msgid "e00u02_yui"
+msgstr "Yui"
+
+#: ../src/logic/enterprise_data.hpp:106
+msgid "e00u03_ichika"
+msgstr "Ichika"
+
+#: ../src/logic/enterprise_data.hpp:107
+msgid "e00u04_megumin"
+msgstr "Megumin"
+
+#: ../src/logic/enterprise_data.hpp:109
+msgid "e01u00_orange_juice"
+msgstr "Orange Juice"
+
+#: ../src/logic/enterprise_data.hpp:110
+msgid "e01u01_syrup"
+msgstr "Syrup"
+
+#: ../src/logic/enterprise_data.hpp:111
+msgid "e01u02_lime"
+msgstr "Lime"
+
+#: ../src/logic/enterprise_data.hpp:112
+msgid "e01u03_cola"
+msgstr "Cola"
+
+#: ../src/logic/enterprise_data.hpp:113
+msgid "e01u04_coconut_milk"
+msgstr "Coconut Milk"
+
+#: ../src/logic/enterprise_data.hpp:115
+msgid "e02u00_rice"
+msgstr "Rice"
+
+#: ../src/logic/enterprise_data.hpp:116
+msgid "e02u01_wheat"
+msgstr "Wheat"
+
+#: ../src/logic/enterprise_data.hpp:117
+msgid "e02u02_tomato"
+msgstr "Tomato"
+
+#: ../src/logic/enterprise_data.hpp:118
+msgid "e02u03_cucumber"
+msgstr "Cucumber"
+
+#: ../src/logic/enterprise_data.hpp:119
+msgid "e02u04_sweet_potato"
+msgstr "Sweet Potato"
+
+#: ../src/logic/enterprise_data.hpp:121
+msgid "e03u00_open_showcases"
+msgstr "Open Showcases"
+
+#: ../src/logic/enterprise_data.hpp:122
+msgid "e03u01_local_baking"
+msgstr "Local Baking"
+
+#: ../src/logic/enterprise_data.hpp:123
+msgid "e03u02_obscure_layout"
+msgstr "Obscure Layout"
+
+#: ../src/logic/enterprise_data.hpp:124
+msgid "e03u03_no_day_offs"
+msgstr "No Day Offs"
+
+#: ../src/logic/enterprise_data.hpp:125
+msgid "e03u04_loyalty_discounts"
+msgstr "Loyalty Discounts"
+
+#: ../src/logic/enterprise_data.hpp:127
+msgid "e04u00_double_frying"
+msgstr "Double Frying"
+
+#: ../src/logic/enterprise_data.hpp:128
+msgid "e04u01_triple_frying"
+msgstr "Triple Frying"
+
+#: ../src/logic/enterprise_data.hpp:129
+msgid "e04u02_faster_cooking"
+msgstr "Faster Cooking"
+
+#: ../src/logic/enterprise_data.hpp:130
+msgid "e04u03_parallel_cooking"
+msgstr "Parallel Cooking"
+
+#: ../src/logic/enterprise_data.hpp:131
+msgid "e04u04_cooking_heuristics"
+msgstr "Cooking Heuristics"
+
+#: ../src/logic/enterprise_data.hpp:133
+msgid "e05u00_titanium_tools"
+msgstr "Titanium Tools"
+
+#: ../src/logic/enterprise_data.hpp:134
+msgid "e05u01_extra_lubrication"
+msgstr "Extra Lubrication"
+
+#: ../src/logic/enterprise_data.hpp:135
+msgid "e05u02_subassembly"
+msgstr "Subassembly"
+
+#: ../src/logic/enterprise_data.hpp:136
+msgid "e05u03_heavy_industry"
+msgstr "Heavy Industry"
+
+#: ../src/logic/enterprise_data.hpp:137
+msgid "e05u04_recycling_line"
+msgstr "Recycling Line"
+
+#: ../src/logic/enterprise_data.hpp:139
+msgid "e06u00_consumer_lends"
+msgstr "Consumer Lends"
+
+#: ../src/logic/enterprise_data.hpp:140
+msgid "e06u01_spam_calls"
+msgstr "Spam Calls"
+
+#: ../src/logic/enterprise_data.hpp:141
+msgid "e06u02_intl_transfers"
+msgstr "International Transfers"
+
+#: ../src/logic/enterprise_data.hpp:142
+msgid "e06u03_exponential_rates"
+msgstr "Exponential Rates"
+
+#: ../src/logic/enterprise_data.hpp:143
+msgid "e06u04_factorial_rates"
+msgstr "Factorial Rates"
+
+#: ../src/logic/enterprise_data.hpp:146
+msgid "e_tier_upgrade_hint"
+msgstr "income of enterprise"
+
+#: ../src/logic/afk_data.hpp:18
+msgid "kitchen_income"
+msgstr "Income"
+
+#: ../src/logic/afk_data.hpp:19
+msgid "afk_tab"
+msgstr "Enterprises"
+
+#: ../src/logic/afk_data.hpp:20
+msgid "afk_max"
+msgstr "Max"
+
+#: ../src/logic/afk_data.hpp:21
+msgid "afk_report"
+msgstr "Enterprises Report"
+
+#: ../src/logic/afk_data.hpp:22
+msgid "afk_invested_in_afk"
+msgstr "Invested in enterprises"
+
+#: ../src/logic/afk_data.hpp:23
+msgid "afk_earned_by_afk"
+msgstr "Earned by enterprises"
+
+#: ../src/logic/clicker_data.hpp:30
+msgid "kitchen_click"
+msgstr "Click!"
+
+#: ../src/logic/clicker_data.hpp:31
+msgid "c_clicker_report"
+msgstr "Clicker Report"
+
+#: ../src/logic/clicker_data.hpp:33
+msgid "c_clicking_power"
+msgstr "Clicking power"
+
+#: ../src/logic/clicker_data.hpp:34
+msgid "c_clicks_made"
+msgstr "Clicks made"
+
+#: ../src/logic/clicker_data.hpp:35
+msgid "c_earned_by_click"
+msgstr "Earned by clicking"
+
+#: ../src/logic/clicker_data.hpp:38
+msgid "c_u00_strong_finger"
+msgstr "Strong Finger"
+
+#: ../src/logic/clicker_data.hpp:39
+msgid "c_u01_rapid_finger"
+msgstr "Rapid Finger"
+
+#: ../src/logic/clicker_data.hpp:40
+msgid "c_u02_finger_tremble"
+msgstr "Finger Tremble"
+
+#: ../src/logic/clicker_data.hpp:41
+msgid "c_u03_light_mouse"
+msgstr "Light Mouce"
+
+#: ../src/logic/clicker_data.hpp:42
+msgid "c_u04_gaming_mouse"
+msgstr "Gaming Mouce"
+
+#: ../src/logic/clicker_data.hpp:45
+msgid "c_upgrade_hint"
+msgstr "of income to clicking power"
